@@ -1,6 +1,6 @@
 Assignment 1 - Lab 1
 
-This repository contains PAI LAB-1 codes.
+This repository contains my PAI LAB-1 codes.
 
 ---
 
