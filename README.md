@@ -1,7 +1,5 @@
 Assignment 1 - Lab 1
 
-This repository contains my PAI LAB-1 codes.
-
 ---
 
 The assignment has 3 parts:
