@@ -1,0 +1,41 @@
+Assignment 1 - Lab 1
+
+This repository contains my Assembly Lab 1 codes.
+
+---
+
+The assignment has 3 parts:
+1. Hello World – A simple assembly program that prints "Hello, World!".
+2. GDB use – Running GDB to debug the hello program.
+3. Print Name & Surname – Prints my name on the first line and my surname on the second line.
+
+---
+
+To build and run (32-bit NASM)
+
+nasm -f elf32 <program_name>.asm -o <program_name>.o
+ld -m elf_i386 <program_name>.o -o <program_name>
+./<program_name>
+
+
+---
+
+To debug
+
+nasm -f elf32 -g <program_name>.asm -o <program_name>.o
+ld -m elf_i386 <program_name>.o -o <program_name>
+./<program_name>
+
+gdb ./<program_name>
+(gdb) break _start
+(gdb) run
+(gdb) set disassembly-flavor intel
+(gdb) disassemble _start
+(gdb) layout asm
+(gdb) layout regs
+(gdb) nexti
+(gdb) quit
+
+
+
+
