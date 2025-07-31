@@ -22,6 +22,7 @@ ld -m elf_i386 <program_name>.o -o <program_name>
 
 To debug
 
+```bash
 nasm -f elf32 -g <program_name>.asm -o <program_name>.o
 ld -m elf_i386 <program_name>.o -o <program_name>
 ./<program_name>
