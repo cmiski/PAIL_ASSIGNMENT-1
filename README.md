@@ -12,7 +12,7 @@ The assignment has 3 parts:
 ---
 
 To build and run (32-bit NASM)
-
+```bash
 nasm -f elf32 <program_name>.asm -o <program_name>.o
 ld -m elf_i386 <program_name>.o -o <program_name>
 ./<program_name>
@@ -36,7 +36,3 @@ gdb ./<program_name>
 (gdb) layout regs
 (gdb) nexti
 (gdb) quit
-
-
-
-
