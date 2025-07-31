@@ -3,8 +3,8 @@ Assignment 1 - Lab 1
 ---
 
 The assignment has 3 parts:
-1. Hello World – A simple assembly program that prints "Hello, World!".
-2. GDB use – Running GDB to debug the hello program.
+1. Hello World – An assembly program that prints "Hello, World!".
+2. GDB use – Running GDB to debug the program.
 3. Print Name & Surname – Prints my name on the first line and my surname on the second line.
 
 ---
