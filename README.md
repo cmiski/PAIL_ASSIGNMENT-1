@@ -1,6 +1,6 @@
 Assignment 1 - Lab 1
 
-This repository contains my Assembly Lab 1 codes.
+This repository contains PAI LAB-1 codes.
 
 ---
 
